@@ -1,5 +1,5 @@
 # email-app-frontend
-This is the frontend for an Email app written in React and NextJS. Demo [Here](#)
+This is the frontend for an Email app written in React and NextJS. Demo is available [Here](https://email-app-frontend-seven.vercel.app/)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
