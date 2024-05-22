@@ -1,0 +1,16 @@
+
+.content {
+  white-space: wrap;
+  width: 700px;
+  overflow: hidden;
+ display: -webkit-box;
+ -webkit-line-clamp: 1;
+         line-clamp: 1;
+ -webkit-box-orient: vertical;
+}
+
+@media (max-width: 760px) {
+  .content {
+    width: 250px;
+  }
+}
