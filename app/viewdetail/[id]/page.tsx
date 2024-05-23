@@ -1,6 +1,5 @@
 import { Card, CardHeader, CardText } from "react-bootstrap";
 import { fetchSingleMessage, updateMessage } from "../../lib/data";
-import { sender } from "../../lib/sender";
 
 export default async function ViewDetail({ params }: { params: { id: number } }) {
   const response = await fetchSingleMessage(params.id);
@@ -9,6 +8,7 @@ export default async function ViewDetail({ params }: { params: { id: number } })
     return <p className="mt-5 text-center">No message found</p>;
   }
   const user = message?.user;
+  const sender = message?.sender;
   if (!message?.isRead) {
     const updateResponse = await updateMessage(params.id);
   }
