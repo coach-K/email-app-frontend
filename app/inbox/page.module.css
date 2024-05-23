@@ -20,6 +20,18 @@
   align-items: center;
 }
 
+.red {
+  background-color: #d33;
+}
+
+.green {
+  background-color: green;
+}
+
+.purple {
+  background-color: purple;
+}
+
 .cardText {
   display: flex;
   justify-content: space-between;
