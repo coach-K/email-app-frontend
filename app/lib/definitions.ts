@@ -16,6 +16,7 @@ export type Message ={
     createdAt: string;
     updatedAt: string;
     user?: User;
+    sender?: User;
 }
 
 export type MessageData = {
